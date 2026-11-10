@@ -1,16 +1,30 @@
-# React + Vite
+# Quart — Caffe & Restaurant Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quart is a modern, responsive two-page web application built with React and Vite, designed to present a full showcase and menu interface for a caffe transitioning into a restaurant model.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Main Page**:
+  - **Hero Section**: Primary landing layout introducing the venue.
+  - **About Section**: Detailed background information about the caffe.
+  - **Featured Selection**: Highlighted presentation of top-rated items.
+  - **Business Details**: Structured display of operating hours, contact details, and location maps.
+- **Menu Page**:
+  - Itemized display for Hot Drinks, Cold Drinks, and Alcoholic Beverages.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: React
+- **Build Tooling**: Vite
+- **Styling & Markup**: HTML5, CSS3, JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## Project Roadmap
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Expand the menu module to support food offerings.
+- Upgrade the user interface and structural data model to transition the brand positioning from a caffe to a full-service restaurant platform.
+
+## Local Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/StefanVuckovic-dev/Quart.git](https://github.com/StefanVuckovic-dev/Quart.git)
